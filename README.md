@@ -57,4 +57,4 @@ fi
 
 
 
-![parrot](https://github.com/z-bj/Periodic-table-database/blob/master/science_parrot.gif)
+<img src="https://github.com/z-bj/Periodic-table-database/blob/master/science_parrot.gif" width="36">
