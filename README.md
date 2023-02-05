@@ -1,4 +1,4 @@
-![banner](https://github.com/z-bj/Periodic-table-database/blob/master/Banner-Periodic-Table-Database.jpg)
+![banner](https://github.com/z-bj/Mendeleiv-elements-db-get/blob/master/Mendeleev%20Table%20Database.jpg)
 
 
 ## Project Goal
