@@ -4,12 +4,58 @@
 
 
 ## Project Goal
+This Bash script is designed to retrieve information about chemical elements from a periodic table database. It allows you to search for an element by atomic number, symbol, or name and outputs information such as atomic mass, melting point, and boiling point.
 
-Create a Bash script to get information about chemical elements from a periodic table database.
+## Project Goal
 
-Connected to the periodic database, fixed mistakes and added appropriate constraints and extra chemical elements information.
+The goal of this project is to provide a user-friendly way to access information about chemical elements from the periodic table. The script connects to a periodic table database, fixes errors, and adds constraints and extra chemical element information. It then uses the Bash programming language to retrieve the requested element information and output it to the user.
 
-Created a Bash script that accepts an argument in the form of an atomic number, symbol, or name of an element and outputs some information about the given element.
+## How to Use
+
+To use this script, you'll need to have Bash installed on your computer. Once you have that, simply run the script with an argument in the form of an atomic number, symbol, or name of an element. For example:
+
+``` bash
+
+./periodic_table.sh 8
+
+```
+
+This will retrieve information about Oxygen, the element with an atomic number of 8.
+
+If you're not sure what argument to use, you can simply run the script without an argument and it will prompt you to provide one:
+
+``` bash
+
+./periodic_table.sh
+
+```
+
+## Output
+
+The script outputs information about the selected element in the following format:
+
+``` bash
+
+The element with atomic number [atomic number] is [name] ([symbol]). It's a [type], with a mass of [atomic mass] amu. [name] has a melting point of [melting point] celsius and a boiling point of [boiling point] celsius.
+
+```
+
+For example, if you search for Oxygen, the output will look like this:
+
+``` bash
+
+The element with atomic number 8 is Oxygen (O). It's a Nonmetal, with a mass of 15.999 amu. Oxygen has a melting point of -218.79 celsius and a boiling point of -182.962 celsius.
+
+```
+
+## Database
+
+The script connects to a PostgreSQL database with the following credentials:
+
+-   Username: freecodecamp
+-   Database name: periodic_table
+
+The database contains information about 118 chemical elements from the periodic table.
 
 ``` bash
 
